@@ -13,26 +13,6 @@ A production-ready, full-stack real-time messaging platform built with the **MER
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-  - [Running Locally](#running-locally)
-- [API Reference](#api-reference)
-- [WebSocket Events](#websocket-events)
-- [Deployment](#deployment)
-- [CI/CD Pipeline](#cicd-pipeline)
-- [Performance](#performance)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [Author](#author)
-- [License](#license)
 
 ---
 
