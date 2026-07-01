@@ -103,32 +103,6 @@ Provide Soon
 
 ---
 
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        CLIENT (React.js)                     │
-│                                                             │
-│   ┌──────────┐    HTTP/REST    ┌─────────────────────────┐  │
-│   │  Auth    │ ──────────────► │   Express.js REST API   │  │
-│   │  Pages   │                 │   /api/auth             │  │
-│   └──────────┘                 │   /api/rooms            │  │
-│                                │   /api/messages         │  │
-│   ┌──────────┐   WebSocket     └──────────┬──────────────┘  │
-│   │  Chat    │ ◄────────────────────────► │   Socket.io      │
-│   │  Rooms   │   (bi-directional)         │   Server         │
-│   └──────────┘                            └──────────┬───────│
-└─────────────────────────────────────────────────────┼───────┘
-                                                       │
-                                              ┌────────▼───────┐
-                                              │  MongoDB Atlas  │
-                                              │                 │
-                                              │  Collections:   │
-                                              │  • users        │
-                                              │  • rooms        │
-                                              │  • messages     │
-                                              └────────────────┘
-```
 
 **Communication Flow:**
 1. Client authenticates via REST API → receives JWT
